@@ -1,0 +1,176 @@
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+main h1 {
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+    text-transform: uppercase;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+blockquote {
+	background-color: #D9E5E3;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	box-sizing: border-box;
+	margin: 20px 40px;
+}
+
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+aside {
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+}
+
+.rodape-pagina {
+	background-color: #000;
+	color: #F2FFFC;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav a {
+	color: #F2FFFC;
+}
+
+main a {
+	color: #851944;
+    padding-bottom: 80px;
+}
+
+aside a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+blockquote, aside, footer {
+    padding: 20px;
+}
+
+main div {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+}
+
+aside {
+	text-align: center;
+}
+
+aside h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+.midias-sociais li{
+    display: inline-block;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+h2 {
+	font-size: 30px;
+    clear: both;
+}
+
+.leia-mais{
+    padding: 8px;
+    margin: 16px;
+    display: inline-block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;;
+}
+
+
+.icones-sociais a{
+    display: inline-block;
+    font-size:0;
+}
+
+.twitter{
+    background-image: url(../img/twitter.png)
+}
+
+.linkedin{
+    background-image: url(img/linkedin.png)
+}
+
+.github{
+    background-image: url(../img/github.png)
+}
+
+nav a {
+    text-transform: lowercase;
+}
+
+.fiat{
+    float: right
+}
+
+.petrobras{
+    float: left;
+}
+
+cite{
+    font-style: italic;
+    float: right;
+    display: block;
+}
+        
+.minha-foto,.navegacao-site{
+    float: right;
+/*    width:15%;*/
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+.minha-foto{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navegacao-site{
+    width: 15%;
+    position: relative;
+    top:310px;
+}
+
+main{
+    float:left;
+    width:85%;
+}
+
+
